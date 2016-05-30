@@ -13,7 +13,7 @@ Setup
   
   bin/elasticsearch
   
-2)Run Logstash and filterforlog.conf consist of cleaning of log file with almost every type data in log file
+2)Run Logstash and filterforlog.conf consist of cleaning of log file with almost each type data in log file
   cd logstash-version_number
   
   bin/logstash -f filterforlog.conf
