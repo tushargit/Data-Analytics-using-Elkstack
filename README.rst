@@ -1,5 +1,5 @@
 
-Requiremnt
+Requirement
 ------------
 To use these filter you need to have ELKstack in your system.
 Please download elasticsearch ,logstash and kibana from given below link.
@@ -16,4 +16,13 @@ Setup
   cd logstash-version_number
   
   bin/logstash -f filterforlog.conf
+  
+Filters Overview
+-----------------
+1)apache-elasticsearch.conf: The file consist of code to clean apache log file data.
  
+2)jason.conf:The file consist of code to see the aplication of  codec json log data.
+
+3)nginx.conf: TThe file consist of code to clean nginx log file data.
+
+4)filterforlog.conf:The file consist of code to clean complex log which contain nested dictionary/hash ,dynamic keys,nested arrays,simple arrays and hash,string and constant.
