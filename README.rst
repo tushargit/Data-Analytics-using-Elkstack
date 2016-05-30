@@ -2,8 +2,8 @@
 Requirement
 ------------
 To use these filter you need to have ELKstack in your system.
-Please download elasticsearch ,logstash and kibana from given below link.
-https://www.elastic.co/downloads 
+Please download any elasticsearch-1.3.2+ ,kibana-3.0.+ from given below link.
+https://www.elastic.co/downloads but  logstash-1.4.0 is required for current filter 
 
 Setup
 ------------
