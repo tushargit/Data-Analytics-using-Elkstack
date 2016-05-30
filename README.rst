@@ -11,6 +11,8 @@ Setup
 1)Run Elasticsearch either by services command or manually.
  cd elasticsearch-version_number
   bin/elasticsearch
-2) cd logstash-version_number
+  
+2)Run Logstash
+ cd logstash-version_number
  bin/logstash -f filterforlog.conf
  
