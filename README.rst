@@ -12,5 +12,5 @@ Setup
  cd elasticsearch-version_number
  bin/elasticsearch
 2) cd logstash-version_number
-bin/logstash -f filterforlog.conf
+ bin/logstash -f filterforlog.conf
  
