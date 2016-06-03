@@ -28,3 +28,4 @@ Filters Overview
 4)filterforlog.conf:The file consist of code to clean complex log which contain nested dictionary/hash ,dynamic keys,nested arrays,simple arrays and hash,string and constant.
 
 5)filterwithmongo_elastic.conf:The file consist of functionality similar to filterforlog.conf and output will be stored in elasticsearch as well in mongo for further analysis.
+6)filter_IPwmongo_eastic.conf:The file consist of additional functionality  of IP tracking based on GeoliteCity.dat.
